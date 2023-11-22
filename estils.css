@@ -1,0 +1,188 @@
+html {
+    background-image: url("Ahora.jpg");
+}
+header {
+    background-color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+    margin-top: auto;
+    margin-right: 1.60cm;
+    margin-left: 1.60cm;
+    padding: 10px;
+    border-style: inset;
+    border-color: crimson;
+    border-width: 8px;
+    position:relative;
+}
+.link:hover{
+    color: darkorange;
+}
+#titulo-principal {
+    font-family: Impact, 'Times New Roman', Times, serif;
+    color: rgb(221, 0, 255);
+    position: relative;
+}
+nav{
+    background-color: rgb(60, 190, 195);
+    color: white;
+    border-style: outset;
+    border-color: darkmagenta;
+    border-width: 10px;
+    margin-top: 4mm;
+    margin-left: 14cm;
+    margin-right: 14cm;
+    padding: 4mm;
+    position: relative;
+}
+/*dejé un par de posiconamientos para poder modificar la estructura en algún futuro en algun otro código para seguir practicando*/
+#unico{
+    text-align: center;
+    background-color: rgb(122, 115, 230);
+    color: white;
+    margin-left: 2.5cm;
+    margin-right: 2.5cm;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 8px;
+    position: relative;
+}
+a {
+    background-color: azure;
+}
+h2{
+    color: rgb(32, 214, 102);
+    font-family: Impact;
+    position: relative;
+}
+.imagen_grande{
+    display: inline-block;
+    margin-right: 5cm;
+    margin-left: 7.8cm;
+}
+.move{
+    color: blueviolet;
+    font-family: serif;
+    position: relative;
+}
+.next{
+    color:beige; 
+    position: relative;
+}    
+/*esto viene a ser parte del css de la página de videos*/
+/*Estuve haciéndolo todo a ojo según las medidas de prueba y error que me salían, se que hay cajas que al cambiar la resolución no son "definitivas" porque al expandirlas, se va todo con ellas, menos el pie de página y el aside (fue lo único que pude lograr entre comillas guardar para siempre en todo*/
+#Part{
+    border-style: inset;
+    border-color: hotpink;
+    text-align: center;
+    background-color: mediumslateblue;
+    margin-left: 15cm;
+    margin-right: 15cm;
+}
+.videos {
+    background-color: brown;
+    margin-top: 10mm;
+    margin-left: 0.2cm;
+    margin-right: 0.2cm;
+    position: relative; 
+}
+
+.videos h1 {
+    text-align: left;
+}
+
+video {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+#Uk, #SC {
+    background-size: 30px;
+    width: 30%;
+    position:absolute;
+    left: 0;  
+    top: 0;
+}
+
+#Uk {
+    background-color: khaki;
+    border-style: dashed;
+    border-color: mediumturquoise;
+    margin-bottom: 10px;
+    margin-left: 24cm;
+    top: 4cm; 
+}
+
+#SC {
+    background-color: rgb(167, 154, 37);
+    border-style: groove;
+    border-color: rgb(72, 88, 209);
+    margin-bottom: 10px;
+    margin-left: 24cm;
+    top: 19.5cm; 
+}
+
+#Uk img {
+    width: 100%;
+    height: auto;
+}
+
+#SC img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*Aquí empiezo a modificar la página de audios*/
+/*en la de audios lo que hice fue ni mas ni menos que hacerle un borde grande dentro de una caja casera la cual abarcaban todos los audios que añadí por estética*/
+#this {
+    margin-left: 11cm;
+    margin-right: 11cm;
+    text-align: center;
+}
+.dol {
+    background-color: chartreuse;
+    border: 4mm;
+    border-color: chocolate;
+    border-style: inset;
+    margin-left: 1.7cm;
+    margin-right: 1.7cm;
+    margin-top: 1.5cm;
+    margin-bottom: 5cm;
+}
+/*Aquí empiezo con el tema de las tablas*/
+/*En la página de tablas, alinee un poco el tema del texto, al igual q cambiarle el color mismo, le añadí una imagen correspondiente con el tema aparte*/
+.tabla {
+    text-align: center;
+    font-family: cursive;
+    color: lightsalmon;
+    margin-right: 3cm;
+    margin-left: 3cm;
+    margin-top: 3cm;
+}
+#diferente {
+    background-color: antiquewhite;
+    margin-bottom: 2cm;
+    margin-left: 10cm;
+    margin-right: 10cm;
+    margin-top: 4cm;
+    padding: auto;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    border-style: groove;
+    border-width: 7mm;
+    border-color: blue;
+}
+#diferente table {
+    margin: auto;
+    text-align: center;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#extra {
+    text-align: center;
+    margin-top: 20px;
+}
+#extra img {
+    max-width:65%;
+    margin: 10px;
+}
